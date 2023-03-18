@@ -45,13 +45,13 @@ const Title = styled.h1`
 
 const glow = keyframes`
 0%{
-    box-shadow: 1px 1px 10px var(--white);
+    box-shadow: 2px 2px 15px var(--white);
 }
 50%{
-    box-shadow: 2px 2px 25px var(--white);
+    box-shadow: 4px 4px 38px var(--white);
 }
 100%{
-    box-shadow: 1px 1px 10px var(--white);
+    box-shadow: 2px 2px 15px var(--white);
 }
 `;
 
@@ -122,15 +122,19 @@ const ProcessorSection = () => {
       </Processor>
       <Text>
         <span>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          Reprehenderit numquam quae nisi, dolore cum voluptatem cumque quo sit,
-          consequuntur necessitatibus iste fuga assumenda deserunt aut omnis,
-          quaerat aliquid optio veniam.
+          The Apple A15 Bionic features an Apple-designed 64-bit six-core CPU
+          implementing ARMv8 with two high-performance cores called Avalanche
+          running at 3.24 GHz and four energy-efficient cores called Blizzard
+          running at 2.01 GHz
         </span>
         <span>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          Reprehenderit numquam quae nisi, dolore cum voluptatem cumque quo sit,
-          consequuntur necessitatibus iste fuga assumenda deserunt aut.
+          The A15 contains 15 billion transistors, a 27.1% increase from the
+          A14's transistor count of 11.8 billion. It includes dedicated neural
+          network hardware that Apple calls a new 16-core Neural Engine.The
+          Neural Engine can perform 15.8 trillion operations per second,faster
+          than A14's 11 trillion operations per second (+ 43%).The A15 also
+          includes a new image processor (ISP) with improved computational
+          photography capabilities.
         </span>
       </Text>
     </Section>

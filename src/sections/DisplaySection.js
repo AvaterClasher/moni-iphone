@@ -159,7 +159,7 @@ const DisplaySection = () => {
         Immersive <br /> Display
       </MainTitle>
       <TextBlockRight>
-        <Title>Super Ratine XDR Display</Title>
+        <Title>Super Retina XDR Display</Title>
         <Text>
           The Super Retina and Super Retina XDR displays use organic
           light-emitting diode (OLED) technology.
@@ -168,8 +168,8 @@ const DisplaySection = () => {
       <TextBlockLeft ref={container}>
         <Title>Big is better</Title>
         <Text>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-          Necessitatibus dignissimos ipsam.
+          Pro Display XDR takes brightness, contrast, and color to a new level.
+          Far beyond HDR, it’s Extreme Dynamic Range (XDR).
         </Text>
       </TextBlockLeft>
 

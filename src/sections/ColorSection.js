@@ -117,27 +117,27 @@ const ColorSection = () => {
       })
       .to(Elem, {
         onStart: updateColor,
-        onStartParams: ["#9BB5CE", "Sierra Blue", "155, 181, 206"],
+        onStartParams: ["#6209D4", "French Violet", "98, 9, 212"],
         onReverseComplete: updateColor,
-        onReverseCompleteParams: ["#9BB5CE", "Sierra Blue", "155, 181, 206"],
+        onReverseCompleteParams: ["#6209D4", "French Violet", "98, 9, 212"],
       })
       .to(Elem, {
         onStart: updateColor,
-        onStartParams: ["#F9E5C9", "Gold", "249, 229, 201"],
+        onStartParams: ["#08C6CD", "Turquoise Surf", "8, 198, 205"],
         onReverseComplete: updateColor,
-        onReverseCompleteParams: ["#F9E5C9", "Gold", "249, 229, 201"],
+        onReverseCompleteParams: ["#08C6CD", "Turquoise Surf", "8, 198, 205"]
       })
       .to(Elem, {
         onStart: updateColor,
-        onStartParams: ["#505F4E", "Alpine Green", "80, 95, 78"],
+        onStartParams: ["#E136A7", "Frostbite", "225, 54, 167"],
         onReverseComplete: updateColor,
-        onReverseCompleteParams: ["#505F4E", "Alpine Green", "80, 95, 78"],
+        onReverseCompleteParams: ["#E136A7", "Frostbite", "225, 54, 167"],
       })
       .to(Elem, {
         onStart: updateColor,
-        onStartParams: ["#574f6f", "Deep Purple", "87, 79, 111"],
+        onStartParams: ["#FFEB3B", "Gold", "255, 235, 59"],
         onReverseComplete: updateColor,
-        onReverseCompleteParams: ["#574f6f", "Deep Purple", "87, 79, 111"],
+        onReverseCompleteParams: ["#FFEB3B", "Gold", "255, 235, 59"],
       })
       .to(Elem, {
         onStart: updateColor,
@@ -147,9 +147,9 @@ const ColorSection = () => {
       })
       .to(Elem, {
         onStart: updateColor,
-        onStartParams: ["#215E7C", "Blue", "33, 94, 124"],
+        onStartParams: ["#292929", "Rich Black", "41, 41, 41"],
         onReverseComplete: updateColor,
-        onReverseCompleteParams: ["#215E7C", "Blue", "33, 94, 124"],
+        onReverseCompleteParams: ["#", "Rich Black", "41, 41, 41"],
       });
 
     return () => {
