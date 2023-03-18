@@ -2,6 +2,7 @@ import React from "react";
 import styled, { keyframes } from "styled-components";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
+import { useLayoutEffect, useRef } from "react";
 
 const Section = styled.section`
   width: 100vw;
@@ -56,8 +57,25 @@ const Text = styled.p`
 `;
 
 const Quote = () => {
+  gsap.registerPlugin(ScrollTrigger);
+  const sectionRef = useRef(null);
+  useLayoutEffect(() => {
+    let Elem = sectionRef.current;
+
+    let trigger = ScrollTrigger.create({
+      trigger: Elem,
+      start: "top top",
+      pin: true,
+      pinSpacing: false,
+    });
+
+    return () => {
+      if (trigger) trigger.kill();
+    };
+  }, []);
+
   return (
-    <Section>
+    <Section ref={sectionRef}>
       <TextContainer>
         <Text delay="0s">
           <span>"When the Mac first came out,</span>
