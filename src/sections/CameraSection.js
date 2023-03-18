@@ -24,7 +24,7 @@ const V1 = styled.video`
   height: 100vh;
   object-fit: cover;
   object-position: bottom;
-  z-index: 2;
+  z-index: 3;
 `;
 
 const V2 = styled.video`

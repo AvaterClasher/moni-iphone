@@ -11,6 +11,7 @@ import { useGLTF } from "@react-three/drei";
 import gsap from "gsap";
 import { useThree } from "@react-three/fiber";
 
+
 export default function Model({ ...props }) {
   const group = useRef();
   const { nodes, materials } = useGLTF("/scene.gltf");
@@ -18,16 +19,18 @@ export default function Model({ ...props }) {
   let camera = useThree((state) => state.camera);
   let scene = useThree((state) => state.scene);
 
+  console.log(materials.Wallpaper)
+
   useLayoutEffect(() => {
     camera.position.set(0, 2, 6);
     materials.Body.color.set("#9BB5CE");
+    // materials.Wallpaper.set("../assets/Images/A15-Bionic.jpg")
 
     let fov = camera.fov;
 
     fov = (1400 * 18)/ window.innerWidth;
     camera.fov = fov;
     camera.updateProjectionMatrix();
-
 
 
 

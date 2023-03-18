@@ -19,7 +19,8 @@ export default function Model2({ ...props }) {
   useLayoutEffect(() => {
     camera.position.set(-0.1,0.4,5);
     materials.Body.color.set("#9BB5CE");
-        
+    // materials.Wallpaper.color.set("../assets/Images/A15-Bionic.jpg")
+
   }, []);
 
   return (

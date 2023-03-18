@@ -125,7 +125,7 @@ const ColorSection = () => {
         onStart: updateColor,
         onStartParams: ["#08C6CD", "Turquoise Surf", "8, 198, 205"],
         onReverseComplete: updateColor,
-        onReverseCompleteParams: ["#08C6CD", "Turquoise Surf", "8, 198, 205"]
+        onReverseCompleteParams: ["#08C6CD", "Turquoise Surf", "8, 198, 205"],
       })
       .to(Elem, {
         onStart: updateColor,
@@ -163,8 +163,8 @@ const ColorSection = () => {
       <Center ref={textRef} />
       <Right ref={rightRef}>
         <Canvas camera={{ fov: 6.5 }}>
-          <ambientLight intensity={1.25} />
-          <directionalLight intensity={0.4} />
+          <ambientLight intensity={5} />
+          <directionalLight intensity={3} />
           <Suspense fallback={null}>
             <Model2 />
           </Suspense>
