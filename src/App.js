@@ -9,14 +9,14 @@ import ProcessorSection from "./sections/ProcessorSection";
 import BatterySection from "./sections/BatterySection";
 import ColorSection from "./sections/ColorSection";
 import CameraSection from "./sections/CameraSection";
-
+import PricingSection from "./sections/PricinngSection";
 
 function App() {
   return (
     <>
       <GlobalStyle/>
       <Quote/>
-      {/* <PhoneModel /> */}
+      <PhoneModel />
       <HeroSection/>
       <DesignSection/>
       <DisplaySection/>
@@ -25,6 +25,7 @@ function App() {
       <ColorContextProvider>
         <ColorSection/>
         <CameraSection/>
+        <PricingSection/>
       </ColorContextProvider>
     </>
   );
