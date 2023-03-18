@@ -25,6 +25,7 @@ const Title = styled.h1`
   text-transform: capitalize;
   font-size: var(--fontBig);
   z-index: 1;
+  display: flex;
 
   @media screen and (max-width: 70em) {
     font-size: var(--fontxxxl);
@@ -70,10 +71,6 @@ const Battery = styled.ul`
   }
 `;
 
-const Point = styled.div`
-
-`;
-
 const BatterySection = () => {
   const battery = useRef(null);
   let elements = gsap.utils.selector(battery);
@@ -100,7 +97,7 @@ const BatterySection = () => {
   return (
     <Section id="battery">
       <Title>
-        Go all day with single charge<Point>.....</Point>
+        Go all day with single charge ...
       </Title>
       <Battery ref={battery}>
         <li />
