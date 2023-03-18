@@ -2,6 +2,7 @@ import HeroSection from "./sections/HeroSection";
 import Quote from "./sections/Quote";
 import {GlobalStyle} from "./styles/GlobalStyle"
 import PhoneModel from "./sections/PhoneModel";
+import DesignSection from "./sections/DesignSection";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Quote/>
       {/* <PhoneModel /> */}
       <HeroSection/>
+      <DesignSection/>
     </>
   );
 }
