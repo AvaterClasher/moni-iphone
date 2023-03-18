@@ -142,6 +142,11 @@ const Quote = () => {
           <span className="author">― Alex Kay</span>
         </Text>
       </TextContainer>
+      <div>
+        <button>
+          
+        </button>
+      </div>
     </Section>
   );
 };
