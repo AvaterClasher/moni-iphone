@@ -39,7 +39,7 @@ const Text = styled.p`
     position: absolute;
     transform: translateY(3rem);
     animation-name: ${moveUp};
-    animation-duration: 2.5s;
+    animation-duration: 2s;
     animation-timing-function: ease;
     animation-fill-mode: forwards;
     animation-delay: ${(props) => props.delay};
