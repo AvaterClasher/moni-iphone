@@ -204,7 +204,7 @@ const PricingSection = () => {
           <Title>13 Pro Max</Title>
           <SubTitle>From $1099*</SubTitle>
           <ButtonContainer>
-            <Btn>Buy</Btn>
+            <a href="https://www.apple.com/in/shop/buy-iphone/iphone-13"><Btn>Buy</Btn></a>
             <BtnLink href="#">Learn More &#x2192;</BtnLink>
           </ButtonContainer>
         </Details>
